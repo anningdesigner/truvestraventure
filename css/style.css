@@ -306,3 +306,14 @@ font-size:32px;
 color:#0066FF;
 margin-bottom:10px;
 }
+@media(max-width:768px){
+
+.opportunity-grid{
+grid-template-columns:1fr;
+}
+
+.process-grid{
+grid-template-columns:1fr;
+}
+
+}
