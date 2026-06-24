@@ -124,3 +124,77 @@ color:white;
 padding:20px;
 text-align:center;
 }
+.page-banner{
+background:linear-gradient(135deg,#0A2540,#0066FF);
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.page-banner h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.page-banner p{
+font-size:18px;
+}
+
+.about-section{
+padding:80px 20px;
+background:#ffffff;
+}
+
+.container-about{
+max-width:1000px;
+margin:auto;
+text-align:center;
+}
+
+.container-about h2{
+margin-bottom:20px;
+font-size:36px;
+}
+
+.container-about p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:20px;
+color:#555;
+}
+
+.mission-vision{
+display:flex;
+gap:30px;
+padding:80px 20px;
+justify-content:center;
+background:#f8fafc;
+}
+
+.mv-card{
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+width:450px;
+text-align:center;
+}
+
+.core-values{
+padding:80px 20px;
+text-align:center;
+}
+
+.value-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.value-card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.08);
+}
