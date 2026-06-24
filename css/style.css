@@ -236,3 +236,73 @@ flex-wrap:wrap;
 justify-content:center;
 }
 }
+.opportunities{
+padding:80px 20px;
+text-align:center;
+background:#f8fafc;
+}
+
+.opportunities h2{
+margin-bottom:40px;
+font-size:36px;
+}
+
+.opportunity-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.opportunity-card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.opportunity-card h3{
+margin-bottom:15px;
+color:#0A2540;
+}
+
+.opportunity-card p{
+margin-bottom:20px;
+color:#666;
+line-height:1.6;
+}
+
+.btn-small{
+display:inline-block;
+padding:10px 20px;
+background:#0066FF;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.investment-process{
+padding:80px 20px;
+text-align:center;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.process-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.08);
+}
+
+.process-card h3{
+font-size:32px;
+color:#0066FF;
+margin-bottom:10px;
+}
