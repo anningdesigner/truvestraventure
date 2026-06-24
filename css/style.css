@@ -317,3 +317,98 @@ grid-template-columns:1fr;
 }
 
 }
+.contact-section{
+padding:80px 20px;
+background:#f8fafc;
+}
+
+.contact-container{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.contact-info{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.contact-info h2{
+margin-bottom:20px;
+}
+
+.info-box{
+margin-top:25px;
+}
+
+.contact-form{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+padding:15px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:16px;
+}
+
+.contact-form button{
+background:#0066FF;
+color:white;
+border:none;
+padding:15px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+}
+
+.map-section{
+padding:80px 20px;
+text-align:center;
+}
+
+.map-placeholder{
+height:300px;
+background:#e5e7eb;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:15px;
+max-width:1200px;
+margin:auto;
+margin-top:30px;
+}
+
+.whatsapp-btn{
+position:fixed;
+bottom:25px;
+right:25px;
+width:60px;
+height:60px;
+background:#25D366;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+z-index:999;
+}
